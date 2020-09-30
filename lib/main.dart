@@ -1,13 +1,15 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:testapp/book_list_page.dart';
 import 'package:testapp/main_model.dart';
 
 void main() => runApp(MyApp());
-
 class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Firebase.initializeApp();
     return MaterialApp(
       title: 'Flutter Demo',
       home: ChangeNotifierProvider<MainModel>(
@@ -30,7 +32,10 @@ class MyApp extends StatelessWidget {
                       child: Text('TODO'),
                       onPressed: () {
                         // TODO
-                        model.changeCopyText();
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => BookListPage()),
+                        );
                       },
                     ),
                   ],

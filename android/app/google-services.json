@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "244153557861",
+    "firebase_url": "https://hotoke-testapp.firebaseio.com",
+    "project_id": "hotoke-testapp",
+    "storage_bucket": "hotoke-testapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244153557861:android:cf342facd75468628c778c",
+        "android_client_info": {
+          "package_name": "com.beers.testapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244153557861-d0ktm5djqqr7npoktart9hdbe5tdiai0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQixoJNq1q8ECj6jTdq_wPVbDguMqmDOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244153557861-d0ktm5djqqr7npoktart9hdbe5tdiai0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "244153557861-l14hhkqce3tk7d0b054j2hbe5f54sehr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.beers.testapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
